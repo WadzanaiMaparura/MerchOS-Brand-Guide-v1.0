@@ -1,4 +1,4 @@
-# MerchOS-Brand-Guide-v1.0
+# MerchOS Design System v1.0
 
 **Version:** 1.0
 **Status:** Active
@@ -6,360 +6,626 @@
 
 ---
 
-# 1. Brand Foundation
+# Design Philosophy
 
-## Vision
+MerchOS is designed around one principle:
 
-To become the operating system for marketplace sellers by simplifying product management, marketplace compliance, supplier integration, and business growth through intelligent automation.
+> Reduce complexity while increasing confidence.
 
----
+Every screen should feel:
 
-## Mission
-
-Enable marketplace sellers to scale faster by eliminating repetitive operational work while improving listing quality, accuracy, and speed.
-
----
-
-## Purpose
-
-MerchOS exists to remove operational complexity so sellers can focus on growing their business instead of managing spreadsheets, supplier catalogues, and marketplace formatting.
-
----
-
-# 2. Brand Position
-
-MerchOS is **not** another listing generator.
-
-MerchOS is a **Marketplace Operations Platform**.
-
-The platform manages the entire product preparation workflow from supplier data through marketplace-ready listings.
-
----
-
-# 3. Brand Personality
-
-MerchOS should always feel:
-
-* Professional
+* Clean
 * Calm
-* Intelligent
-* Precise
-* Reliable
-* Efficient
 * Modern
+* Professional
+* Fast
 * Trustworthy
 
-MerchOS should never feel:
+Never overwhelming.
 
-* Loud
-* Salesy
-* Flashy
-* Overly technical
-* Buzzword driven
-* Overpromising
+Never cluttered.
 
 ---
 
-# 4. Brand Promise
+# Inspiration
 
-Marketplace Automation, Engineered for Accuracy & Speed.
+MerchOS visual inspiration comes from:
 
----
+* Linear
+* Stripe
+* Vercel
+* Notion
 
-# 5. Core Values
-
-## Accuracy
-
-Correct data before fast data.
-
----
-
-## Simplicity
-
-Complex operations should feel effortless.
+Not from generic marketplace websites.
 
 ---
 
-## Reliability
+# Layout Principles
 
-Users should trust MerchOS with business-critical workflows.
+Maximum Content Width
 
----
+1280px
 
-## Efficiency
+Section Padding
 
-Every feature should save measurable time.
+Desktop
 
----
+120px Top & Bottom
 
-## Continuous Improvement
+80px Left & Right
 
-Every release should make sellers' lives easier.
+Tablet
 
----
+80px
 
-# 6. Target Audience
+Mobile
 
-Primary:
-
-* Takealot Sellers
-
-Future:
-
-* Makro Marketplace Sellers
-* Amazon Sellers
-* WooCommerce Sellers
-* Shopify Merchants
-* Multi-channel Retailers
+32px
 
 ---
 
-# 7. Writing Style
+# Grid
 
-Write like a software company.
+12-column responsive grid
 
-Use:
-
-* Short sentences
-* Clear language
-* Professional tone
-* Outcome-focused messaging
-
-Avoid:
-
-* Excessive excitement
-* Marketing hype
-* Technical jargon
-* AI buzzwords
-
-Never lead with AI.
-
-Lead with results.
+Consistent spacing throughout.
 
 ---
 
-# 8. Messaging Principles
+# Colour Palette
 
-Speak about outcomes.
+## Primary
 
-Instead of:
+MerchOS Blue
 
-"AI Processing"
-
-Use:
-
-"Processing"
-
-Instead of:
-
-"AI Enhancement"
-
-Use:
-
-"MerchOS Enhancement"
-
-Instead of:
-
-"AI Powered"
-
-Use:
-
-"Marketplace Automation"
+```
+#2563EB
+```
 
 ---
 
-# 9. Hero Messaging
+## Primary Hover
 
-Primary Headline
-
-Marketplace Automation, Engineered for Accuracy & Speed.
-
-Supporting Copy
-
-Transform supplier catalogues into marketplace-ready listings through an intelligent automated workflow designed for sellers who value speed, consistency and precision.
-
-Primary CTA
-
-Start Free Trial
-
-Secondary CTA
-
-Watch Demo
+```
+#1D4ED8
+```
 
 ---
 
-# 10. Brand Voice
+## Accent
 
-MerchOS speaks with confidence.
-
-It does not exaggerate.
-
-It demonstrates competence.
-
-Examples:
-
-✓ Marketplace Ready
-
-✓ Automated Workflow
-
-✓ Accurate Product Data
-
-✓ Built for Marketplace Sellers
-
-Avoid:
-
-✗ Revolutionary
-
-✗ Game Changing
-
-✗ AI Magic
-
-✗ Unlimited Possibilities
+```
+#3B82F6
+```
 
 ---
 
-# 11. Design Philosophy
+## Success
 
-Every design decision must:
-
-* Reduce complexity.
-* Increase trust.
-* Improve usability.
-* Communicate professionalism.
-
-Whitespace is preferred over clutter.
-
-Product screenshots are preferred over illustrations.
-
-Animations support usability.
-
-They never distract.
+```
+#22C55E
+```
 
 ---
 
-# 12. Colour Philosophy
+## Warning
 
-Primary Colour
+```
+#F59E0B
+```
 
-Professional Blue
+---
+
+## Error
+
+```
+#EF4444
+```
+
+---
+
+## Background
+
+Use a soft blue-white gradient.
+
+```
+Top
+#F6FAFF
+
+Center
+#F8FBFF
+
+Bottom
+#FFFFFF
+```
+
+Never use flat white pages.
+
+---
+
+## Cards
 
 Background
 
-Very light blue-white gradient
+```
+#FFFFFF
+```
 
-Cards
+Border
 
-Pure white
+```
+#E5E7EB
+```
 
-Borders
+Radius
 
-Subtle grey
+16px
 
-Success
+Shadow
 
-Green
-
-Errors
-
-Red
-
-Warning
-
-Amber
-
-Large empty white space is encouraged.
+Very soft.
 
 ---
 
-# 13. User Experience Principles
+# Typography
 
-Every page should answer:
+Font
 
-What is MerchOS?
+Inter
 
-How does it help me?
+Fallback
 
-Why should I trust it?
-
-What should I do next?
-
-There should always be one primary call-to-action.
+system-ui
 
 ---
 
-# 14. Product Principles
+Hero
 
-Every feature must satisfy at least one of the following:
+56px
 
-* Save Time
-* Improve Accuracy
-* Increase Sales
-* Reduce Manual Work
-* Simplify Marketplace Operations
-
-If it satisfies none of these, it should not be built.
+Bold
 
 ---
 
-# 15. Website Structure
+Section Titles
 
-Public Website
+40px
 
-* Home
-* Features
-* Pricing
-* Resources
-* About
-* Login
-
-Seller Application
-
-app.merchos.co.za
-
-Admin Portal
-
-admin.merchos.co.za
+Bold
 
 ---
 
-# 16. Marketing Philosophy
+Card Titles
 
-MerchOS markets through credibility.
+22px
 
-Not hype.
-
-Trust is earned through:
-
-* Product quality
-* Customer success
-* Professional design
-* Educational content
-* Community engagement
+Semi Bold
 
 ---
 
-# 17. Long-Term Brand Goal
+Body
 
-When someone sees MerchOS, they should immediately associate it with:
+18px
 
-Professionalism.
-
-Accuracy.
-
-Automation.
-
-Reliability.
-
-Marketplace Success.
+Regular
 
 ---
 
-# 18. Brand Standard
+Caption
 
-If a feature, webpage, advertisement, email or presentation does not feel calm, professional and trustworthy, it does not represent the MerchOS brand.
+14px
+
+Regular
 
 ---
 
-**Brand Motto**
+# Buttons
 
-Marketplace Automation, Engineered for Accuracy & Speed.
+Primary
+
+Blue background
+
+White text
+
+Rounded
+
+12px radius
+
+Large padding
+
+Hover
+
+Slightly darker blue
+
+Subtle lift
+
+---
+
+Secondary
+
+White
+
+Grey border
+
+Blue text
+
+Hover
+
+Soft blue background
+
+---
+
+Never use:
+
+Rounded pills
+
+Heavy shadows
+
+Gradient buttons
+
+---
+
+# Cards
+
+Radius
+
+16px
+
+Padding
+
+32px
+
+Spacing
+
+Generous
+
+Shadow
+
+Very subtle
+
+Cards should appear to float.
+
+---
+
+# Icons
+
+Style
+
+Outline icons
+
+Simple
+
+Minimal
+
+Blue accents
+
+Avoid:
+
+3D icons
+
+Cartoon icons
+
+Colourful icon packs
+
+---
+
+# Images
+
+Priority
+
+1 Product Screenshots
+
+2 Dashboard Visuals
+
+3 Workflow Diagrams
+
+4 Illustrations
+
+Avoid stock photography whenever possible.
+
+---
+
+# Dashboard
+
+Dashboard is the hero.
+
+Always.
+
+It should be the visual focal point of the page.
+
+Large.
+
+Modern.
+
+Bright.
+
+Minimal.
+
+---
+
+# Hero Section
+
+Layout
+
+Two columns
+
+Left
+
+Headline
+
+Supporting text
+
+CTA buttons
+
+Trust indicators
+
+Right
+
+Large dashboard
+
+Soft blue radial glow
+
+Floating slightly above background
+
+---
+
+# Background Effects
+
+Use
+
+Very soft radial gradients.
+
+Very light blue glow.
+
+Never use:
+
+Busy patterns
+
+Dark gradients
+
+Strong colour blocks
+
+---
+
+# Animations
+
+Animation philosophy
+
+Almost invisible.
+
+Examples
+
+Fade In
+
+250ms
+
+Card Hover
+
+Translate Y
+
+-4px
+
+Button Hover
+
+Scale
+
+1.02
+
+Dashboard
+
+Very subtle floating animation
+
+Icons
+
+Fade
+
+No spinning
+
+No bouncing
+
+---
+
+# White Space
+
+Large white space is encouraged.
+
+Every section should breathe.
+
+Never try to fill empty space.
+
+Whitespace communicates confidence.
+
+---
+
+# Navigation
+
+Height
+
+80px
+
+Logo left
+
+Navigation center
+
+CTA right
+
+Sticky
+
+Yes
+
+Background
+
+White with blur after scrolling.
+
+---
+
+# Forms
+
+Rounded
+
+16px
+
+Large inputs
+
+Clear labels
+
+Minimal borders
+
+Blue focus ring
+
+No placeholder-only labels.
+
+---
+
+# Tables
+
+Large spacing
+
+Alternating row hover
+
+Rounded container
+
+Never use dense enterprise tables.
+
+---
+
+# Charts
+
+Minimal gridlines
+
+Blue data series
+
+Green success
+
+Grey axes
+
+Simple legends
+
+No unnecessary decoration.
+
+---
+
+# Pricing Cards
+
+Four cards
+
+Equal height
+
+Professional spacing
+
+One highlighted plan
+
+No flashing badges
+
+No oversized discounts
+
+Most Popular badge only.
+
+---
+
+# Testimonials
+
+White cards
+
+Customer photo
+
+Name
+
+Business
+
+Rating
+
+Short quote
+
+Maximum three lines.
+
+---
+
+# Section Order
+
+Hero
+
+Workflow
+
+Features
+
+Dashboard
+
+Pricing
+
+Testimonials
+
+FAQ
+
+Footer
+
+---
+
+# Motion Principles
+
+Motion should guide attention.
+
+Not entertain.
+
+Every animation must have a purpose.
+
+---
+
+# Mobile
+
+Desktop first.
+
+Responsive second.
+
+No feature should disappear on mobile.
+
+Layouts stack naturally.
+
+---
+
+# Component Library
+
+Standard Components
+
+* Navigation
+* Hero
+* CTA
+* Feature Card
+* Dashboard Card
+* Pricing Card
+* Testimonial Card
+* FAQ
+* Footer
+* Notification
+* Modal
+* Empty State
+* Loading State
+
+No custom component should violate this design language.
+
+---
+
+# Kiro Implementation Rule
+
+Every UI change must comply with:
+
+* BRAND_GUIDE.md
+* DESIGN_SYSTEM.md
+
+If a proposed UI conflicts with these documents, these documents take precedence.
+
+---
+
+# Final Standard
+
+Every screen should make users think:
+
+> This software is reliable.
+
+Not:
+
+> This software is flashy.
+
+MerchOS should feel like software trusted to run a business.
+
+
