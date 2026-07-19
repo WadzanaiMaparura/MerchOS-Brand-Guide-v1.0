@@ -1,5 +1,4 @@
 # MerchOS-Brand-Guide-v1.0
-Brand guardrails`
 
 **Version:** 1.0
 **Status:** Active
